@@ -1,0 +1,104 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px; 
+}
+
+
+header, nav, section, article, aside, footer{
+    display: block;
+}
+
+body{
+    background:url(../imagenes/zombie.jpg)
+  no-repeat fixed center center;
+  background-size:cover; 
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#caja_principal{
+    width: 900px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+
+#cabecera{
+    background: #FAFAFA;
+    border: 1px solid #000000;
+    padding: 20px;
+}
+
+
+#barra_navegacion{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+#barra_navegacion li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+#barra_navegacion:hover a{
+    filter: blur(0px);
+    cursor: pointer;
+  }
+#barra_navegacion a{
+    padding: 10px;
+    text-decoration: none;
+    transition: all 500ms;
+    color: #D8D8D8;
+    filter: blur(3px);
+  }
+
+#barra_navegacion li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+
+
+#seccion {
+    float: left;
+    width: 580px;
+    margin: 20px;
+    background: #E6E6E6;
+}
+
+
+
+#columna{
+    float: right;
+    width: 200px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #D8D8D8;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+}
+
+#seccion article{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #000000;
+}
